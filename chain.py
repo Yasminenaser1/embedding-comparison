@@ -53,5 +53,5 @@ chain = (
 )
 
 if __name__ == "__main__":
-    q = "a no-bake dessert"
+    q = input("What do you want to make? ").strip()
     print(chain.invoke(q))
