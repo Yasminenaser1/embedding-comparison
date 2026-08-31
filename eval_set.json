@@ -1,0 +1,156 @@
+[
+  {
+    "query": "cheese ball",
+    "expected": [
+      "Cheese Ball"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "query": "egg drop soup",
+    "expected": [
+      "Egg Drop Soup"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "query": "chicken pot pie",
+    "expected": [
+      "Chicken Pot Pie"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "query": "angel food cake",
+    "expected": [
+      "Angel Food Cake"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "query": "clam chowder",
+    "expected": [
+      "Clam Chowder"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "query": "chicken and rice",
+    "expected": [
+      "Chicken Breasts With Wild Rice"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "query": "chicken casserole",
+    "expected": [
+      "Chicken Casserole",
+      "Chicken And Tortilla Casserole",
+      "Chicken Divan"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "query": "a no-bake dessert",
+    "expected": [
+      "Chocolate Lover'S No-Bake Brownies",
+      "No Bake Persimmon Pudding"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "query": "something with apples",
+    "expected": [
+      "Fresh Apple Cake",
+      "Applesauce Cake",
+      "Apple Pie",
+      "Apple Crisp",
+      "Apple Bread",
+      "Easy Apple Dumplings",
+      "Red Cabbage And Apples",
+      "Apple Sour Cream Coffee Cake",
+      "Eggless Milkless Applesauce Cake",
+      "Cranberry-Apple-Orange Salad"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "query": "eggs and cheese",
+    "expected": [
+      "Egg Cheese Souffle",
+      "Diane'S Quick Quiche"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "query": "peanut butter cookies",
+    "expected": [
+      "Peanut Butter Cup Cookies"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "query": "a dip for a party",
+    "expected": [
+      "Taco Salad Chip Dip",
+      "Artichoke Dip",
+      "Broccoli Dip For Crackers",
+      "Taco Dip",
+      "Cheese Dip",
+      "Corned Beef Dip",
+      "Dill Dip",
+      "Simple Salsa Dip"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "query": "pad thai",
+    "expected": [],
+    "difficulty": "hard"
+  },
+  {
+    "query": "vegan curry",
+    "expected": [],
+    "difficulty": "hard"
+  },
+  {
+    "query": "sushi rolls",
+    "expected": [],
+    "difficulty": "hard"
+  },
+  {
+    "query": "pizza",
+    "expected": [
+      "Fruit Pizza",
+      "Pizza Casserole"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "query": "a green salad",
+    "expected": [
+      "Cucumber Salad With Dill",
+      "Broccoli Salad",
+      "Three Bean Salad"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "query": "sandwiches",
+    "expected": [
+      "Sloppy Joes",
+      "Spanish Hamburgers"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "query": "oatmeal",
+    "expected": [],
+    "difficulty": "hard"
+  },
+  {
+    "query": "cereal",
+    "expected": [],
+    "difficulty": "hard"
+  }
+]
