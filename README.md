@@ -51,4 +51,5 @@ where it was hand-built and validated.
 
 - `compare.py` — loads each model, indexes the corpus, scores MRR, times both
 - `recipes.json` / `eval_set.json` — corpus and eval set, copied from recipe-rag
+- `chain.py` — LCEL chain: retriever → prompt → LLM → output parser
 - `results.json` — raw output
