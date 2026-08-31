@@ -6,6 +6,7 @@ from langchain_core.documents import Document
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
+from langchain_groq import ChatGroq
 
 recipes = json.load(open("recipes.json"))
 
@@ -42,15 +43,15 @@ Does any recipe above satisfy the request? If not, say so plainly.
 If one does, name it and list what they'd need to buy."""
 )
 
-# This is LCEL - the pipe operator composes runnables into a chain.
-# retriever feeds context, the question passes through untouched,
-# both fill the prompt template.
+llm = ChatGroq(model="openai/gpt-oss-120b")
+
 chain = (
     {"context": retriever | format_docs, "question": RunnablePassthrough()}
     | prompt
+    | llm
+    | StrOutputParser()
 )
 
 if __name__ == "__main__":
     q = "a no-bake dessert"
-    result = chain.invoke(q)
-    print(result.to_string()[:1200])
+    print(chain.invoke(q))
